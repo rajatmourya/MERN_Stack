@@ -1,0 +1,76 @@
+.main{
+    width: 100vw;
+    height: 100vw;
+}
+
+.top{
+    width: 100%;
+    height: 100px;
+    background-color: lightgreen;
+}
+
+.left{
+    width: 60%;
+    height: 100%;
+    background-color: magenta;
+}
+
+.right{
+    width: 40%;
+    height: 100%;
+    background-color: brown;
+    float: right;
+}
+
+
+
+body{
+    background-color: lightpink;
+}
+
+.container{
+    width: 80%;
+    margin-inline: auto;
+    /* background-color: rgb(179, 42, 179); */
+    /* position: relative; */
+}
+
+.tom-outside{
+    width: 120px;
+    position:sticky;
+    top: 100px;
+    left: 20px;
+}
+
+.spacer{
+    height: 200vh;
+}
+
+.text-box{
+    background-color: white;
+    width: 92.5%;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+
+.kitty{
+    width: 200px;
+    float: right;
+}
+
+.kitty-bottom{
+    width: 200px;
+    float: left;
+
+}
+
+
+
+.text-wrapper{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    overflow:auto;
+}
+

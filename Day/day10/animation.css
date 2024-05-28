@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(246, 21, 88);
+    align-items: center;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    animation: left-to-right 1s 1  5s;
+    animation-fill-mode: both;
+}
+
+@keyframes left-to-right {
+    0% {
+        transform: translateX(-100px);
+        background-color: green;
+    }
+    100% {
+        transform: translateX(100px);
+        background-color: blue;
+    }
+}

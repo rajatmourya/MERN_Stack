@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #074700; */
+    background-color: white;
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    /* animation: sanimation 0.5s ease-in-out infinite alternate; */
+    animation: up-down 0.5s ease-in-out infinite alternate;
+    border-radius: 50%;
+}
+
+@keyframes sanimation {
+    0% {
+        transform: skew(-20deg, -20deg);
+    }
+
+    100% {
+        transform: skew(20deg, 20deg);
+    }   
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(40px);
+    }   
+}

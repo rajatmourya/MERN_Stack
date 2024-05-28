@@ -1,0 +1,55 @@
+/* h1{
+    
+    background-color: brown;
+}
+
+p{
+    border: 2px solid blue;
+}
+
+.red-border{
+    background-color: cyan;
+    border: 5px solid red;
+}
+
+#lorem-text1{
+    font-weight: bold;
+    font-size:x-large;
+    border: none;
+}
+
+/*             universal selector
+
+* {
+    font-style: italic;
+}  
+
+*/ */
+
+.red-border, #lorem-text1, h1{
+    font-style: italic;
+}
+
+header{
+    width: 400px;
+    border: 5px solid red;
+
+}
+
+header h1{
+    background-color: #2d20a13d;
+    font-size: 10vw;
+}
+
+h1{
+    font-size: 10%;
+}
+
+img{
+    width: 10vw;
+}
+
+header img{
+    width: 10% ;
+}
+

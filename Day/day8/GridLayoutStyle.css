@@ -1,0 +1,127 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    display: grid;
+  }
+
+  .container{
+    margin: 40px;
+    border: 2px solid red;
+    display: grid;
+    /* grid-template-columns: repeat(4,200px); */
+    grid-template-columns: repeat(4,1fr);
+    /* grid-template-rows: 200px 200px; */
+    grid-auto-rows: 100px;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .box {
+    border: 2px solid rgb(8,0,255);
+    background-color: rgb(178, 176,255);
+    padding: 20px;
+  }
+
+  #box-1{
+    grid-column-start:1 ;
+    /* grid-column-end:5 ; */
+    grid-column-end:-1 ;
+  }
+
+  #box-2{
+  }
+
+  #box-3{
+    /* grid-column-start:2 ;
+    grid-column-end: span 2;
+    grid-row-start: 2;
+    grid-row-end: span 2; */
+    grid-area:  2 / 2 / span 2 / span 2;
+
+  }
+
+  #box-9{
+    grid-row: span 3;
+  }
+
+  #box-12{
+    width: 40px;
+    height: 20px;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .parent{
+    background-color: blueviolet;
+    justify-self: center;
+    align-self: center;
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    display: grid;
+    /* justify-content: center;
+    align-content: center; */
+    /* align-items: center;
+    justify-items: center; */
+  }
+
+  .child{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    justify-self:center;
+    align-self: center;
+    background-color: chartreuse;
+  }
+
+
+  body{
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-template-areas:    'hd hd hd'
+                            'nv mn ad'
+                            'ft ft ft ';
+    
+  }
+
+  
+
+
+  .red-box{
+
+    display: grid;
+    border: 5px solid red;
+    height: 200px;
+    font-size: 3rem;
+    justify-content: center;
+    align-content: center;
+    color: coral;
+    background-color: #212121;
+  }
+
+  header{
+    grid-area: hd;
+  }
+
+  main{
+    grid-area: mn;
+  }
+
+  .navigation {
+    grid-area: nv;
+  }
+
+  .advertisment {
+    grid-area: ad;
+  }
+
+  footer {
+    grid-area: ft;
+  }
+
+
+  

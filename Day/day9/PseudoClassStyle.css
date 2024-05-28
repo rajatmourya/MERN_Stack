@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a {
+    font-size: 6rem;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+ul{
+    font-style: none;
+}
+
+li:first-child {
+    background-color: darkgoldenrod;
+}
+
+li:last-child{
+    font-size: 3rem;
+    background-color: blueviolet;
+}
+
+li:nth-child(4){
+    background-color: red;
+}
+
+li:nth-child(2n+1){
+    background-color: green;
+}
+
+

@@ -1,0 +1,49 @@
+ *{
+    margin: 0;
+ }
+
+ :root{
+    --translate-distance:300px;
+ }
+
+ .container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f7204fb;
+ }
+
+ .big-box{
+    width: 400px;
+    height: 400px;
+    border: 2px solid white;  
+ }
+ .box{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    animation: up-down 2s  infinite;
+ }
+
+ @keyframes up-down {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25%{
+        transform: translate(0,var(--translate-distance));
+    }
+
+    50% {
+        transform: translate(var(--translate-distance), var(--translate-distance));
+    }
+
+    75%{
+        transform: translate(var(--translate-distance), 0px);
+    }
+    
+    100%{
+        transform: translate(0, 0);
+    }
+ }
