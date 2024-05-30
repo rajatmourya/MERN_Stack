@@ -17,6 +17,7 @@ async function fetchData() {
 
         const response = await fetch('https://dummyjson.com/products/100');
         console.log(response);
+        
         const jsonData = await response.json();  
         console.log(jsonData);
 

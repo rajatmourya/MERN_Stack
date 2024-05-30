@@ -3,6 +3,8 @@ const images = [
     'https://images.pexels.com/photos/145683/pexels-photo-145683.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     'https://images.pexels.com/photos/2649394/pexels-photo-2649394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     'https://images.pexels.com/photos/2131819/pexels-photo-2131819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    'https://hd.wallpaperswide.com/thumbs/deadpool_and_wolverine_2024_superhero_comedy-t2.jpg',
+    'https://hd.wallpaperswide.com/thumbs/godzilla_x_kong_the_new_empire_2024_movie-t2.jpg',
     'https://media.istockphoto.com/id/945065522/photo/cityscape-with-wi-fi-connection-conceptual-information-communication-technology-concept.jpg?s=1024x1024&w=is&k=20&c=8iRe7fXuFaaBu5fKrdu_SrJnnkcntQ-t269J0BziC0c=  '
 
 ];
@@ -34,6 +36,8 @@ for (let i = 0; i < n; i++) {
     })
     
 }
+
+
 
 let  curPosition = 0;
 showImg(0);
@@ -67,7 +71,3 @@ function showImg(position) {
     flexContainer.style.transform = `translateX(${translateDistance}vw)` ;
 
 }
-
-
-
-
