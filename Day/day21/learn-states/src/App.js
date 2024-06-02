@@ -8,6 +8,8 @@ import UserForm from "./day22/UserForm";
 import UseEffectHook from "./day22/UseEffectHook";
 import Hooks from "./day22/Hooks";
 import NewsApp from "./day22/NewsApp";
+import Harshit from "./day22/Harshit";
+import CoinConverter from "./Assignment/CoinConverter";
 
 function App() {
   const [countInParent, setCountInParent] = useState(0);
@@ -36,7 +38,10 @@ function App() {
       {/* <UseEffectHook /> */}
       {/* <Hooks /> */}
 
-      <NewsApp />
+      {/* <NewsApp /> */}
+
+      {/* <Harshit /> */}
+      <CoinConverter />
 
     </div>
   );
