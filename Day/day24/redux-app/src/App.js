@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Child1 from './components/Child1';
+import Child2 from './components/Child2';
+import CreateNote from './components/notes/CreateNote';
+import ListNotes from './components/notes/ListNotes';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Child1 />
+      <Child2 />
+      <CreateNote />
+      <ListNotes />
     </div>
   );
 }
