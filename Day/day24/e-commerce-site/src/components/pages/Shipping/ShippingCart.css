@@ -1,0 +1,113 @@
+
+.ShippingCart {
+    display: grid;
+    margin: 0 20%;
+}
+
+.Shipping {
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+
+.ShippingUrl, .beg {
+    color: #999;
+}
+
+.ShippingSubTitle {
+    display: flex;
+    justify-content: space-between;
+    padding: 0  10px 10px 10px;
+}
+
+.ShippingTotalPrice { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo {
+    display: flex;
+  text-align: left;
+}
+
+.promoLabel {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    border: 2px solid #34e7ba;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 400px;
+  }
+
+.PromoInput {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    flex: 1;
+  }
+  
+  .PromoCodeButton {
+    background-color: #34e7ba;
+    border: none;
+    color: white;
+    padding: 13px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0 25px 25px 0; /* Rounded corners for the right side */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .PromoCodeButton:hover {
+    background-color: #09b489;
+  }
+
+.TotalAmout {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: right;
+    width: 200px;
+  }
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .row.total {
+    font-weight: bold;
+  }
+  
+  .label {
+    font-size: 20px;
+  }
+  
+  .value {
+    font-size: 16px;
+  }
+  
+  .checkout-button {
+    background-color: #34e7ba;
+    color: white;
+    border: none;
+    border-radius: 25px 25px 25px 25px ;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .checkout-button:hover {
+    background-color: #09b489;
+  }

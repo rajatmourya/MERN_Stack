@@ -5,7 +5,7 @@
 }
 
 .container{
-    margin: 20px;
+    margin: 100px;
     display: grid;
     justify-content: center;
 }
@@ -16,12 +16,12 @@
     /* justify-content: center;
     align-content: center; */
     grid-template-columns: 100px 100px 100px 100px;
-    grid-template-rows: 90px 90px 90px 90px 90px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
 }
 
 #number-input {
     width: 400px;
-    height: 100px;
+    height: 150px;
     background-color: black;
     color: white;
     text-align: end;

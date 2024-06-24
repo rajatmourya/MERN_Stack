@@ -1,0 +1,32 @@
+.SingleProduct {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.productImg {
+    width: 100%;
+}
+
+.productInfo {
+    padding: 20px;
+}
+/* 
+.cardInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 10px;
+    padding-bottom: 20px ;
+}
+
+.button {
+    padding: 20px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    
+} */

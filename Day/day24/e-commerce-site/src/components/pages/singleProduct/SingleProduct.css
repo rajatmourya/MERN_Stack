@@ -1,0 +1,48 @@
+.SingleProduct {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.productImg {
+    width: 100%;
+    height: 350px;
+}
+
+.productInfo {
+    padding: 20px;
+}
+.productPrice{
+    font-size: 2rem;
+}
+
+
+
+.cartInfo {
+    display: flex;
+    justify-content:center;
+    align-items: center ;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.button {
+    padding: 20px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    background-color: teal;
+    color: white;
+    
+}
+
+.productTitle {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: " [..]"; 
+}
